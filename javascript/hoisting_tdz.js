@@ -10,9 +10,10 @@ function greet(){
     console.log("greetings")
 }
 // the function prnits the value accurately because of hoisting completely
-
+// 
 console.log(y)
 let y = "string"
 
 foo(); // TypeError: foo is not a function — foo IS undefined here, hoisted like var
 var foo = function() { };
+
